@@ -1,4 +1,4 @@
-# Cadence & Tool Logs / Command Histories
+# Cadence & Tool Logs
 *.log*
 *.cmd*
 *.key
@@ -6,16 +6,16 @@
 *.tstamp
 .cadence/
 
-# Simulation Databases & Waveforms (Incisive / Xcelium / Virtuoso)
+# Simulation Databases & Waveforms
 INCA_libs/
 waves.shm/
 *.dsn
 *.trn
 
-# Synthesis / Formal Verification Artifacts (Genus / Conformal)
+# Synthesis / Formal Artifacts
 fv/
 
-# Cadence OpenAccess / Virtuoso Lock Files & Tags
+# Cadence OpenAccess Lock Files
 *.cdslck
 *.tag
 data.dm
