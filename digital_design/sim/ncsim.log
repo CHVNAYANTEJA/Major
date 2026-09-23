@@ -1,0 +1,25 @@
+ncsim(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm tb_analog_cnn_vlsi.clk tb_analog_cnn_vlsi.enable tb_analog_cnn_vlsi.gradient_out_bits tb_analog_cnn_vlsi.rst tb_analog_cnn_vlsi.target_bits tb_analog_cnn_vlsi.target_real tb_analog_cnn_vlsi.v_act_out_bits tb_analog_cnn_vlsi.v_amplified_bits tb_analog_cnn_vlsi.v_filtered_bits tb_analog_cnn_vlsi.v_in_bits tb_analog_cnn_vlsi.v_in_real tb_analog_cnn_vlsi.v_mac_out_bits tb_analog_cnn_vlsi.weight_out_bits
+Created probe 1
+ncsim> run
+Time=60 | V_in=1.100V | Amplified=1.800V | Filtered=0.902V | MAC=0.000V | Act=0.000V | Weight=0.5108
+Time=65 | V_in=1.100V | Amplified=1.800V | Filtered=0.903V | MAC=0.000V | Act=0.000V | Weight=0.5216
+Time=75 | V_in=1.100V | Amplified=1.800V | Filtered=0.904V | MAC=0.000V | Act=0.000V | Weight=0.5325
+Time=85 | V_in=1.100V | Amplified=1.800V | Filtered=0.905V | MAC=0.001V | Act=0.001V | Weight=0.5433
+Time=95 | V_in=1.100V | Amplified=1.800V | Filtered=0.906V | MAC=0.001V | Act=0.001V | Weight=0.5542
+Time=105 | V_in=1.100V | Amplified=1.800V | Filtered=0.907V | MAC=0.001V | Act=0.001V | Weight=0.5651
+Time=115 | V_in=1.100V | Amplified=1.800V | Filtered=0.908V | MAC=0.002V | Act=0.002V | Weight=0.5759
+Time=125 | V_in=1.100V | Amplified=1.800V | Filtered=0.909V | MAC=0.002V | Act=0.002V | Weight=0.5868
+Time=135 | V_in=1.100V | Amplified=1.800V | Filtered=0.909V | MAC=0.003V | Act=0.003V | Weight=0.5977
+Time=145 | V_in=1.100V | Amplified=1.800V | Filtered=0.910V | MAC=0.003V | Act=0.003V | Weight=0.6086
+Time=155 | V_in=1.100V | Amplified=1.800V | Filtered=0.911V | MAC=0.004V | Act=0.004V | Weight=0.6195
+Simulation complete via $finish(1) at time 160 NS + 0
+./tb_hearing.v:61         $finish;
+ncsim> ncsim: Memory Usage - 38.6M program + 294.8M data = 333.5M total (336.2M Peak)
+ncsim: CPU Usage - 1.9s system + 0.6s user = 2.5s total (300.2s, 0.8% cpu)

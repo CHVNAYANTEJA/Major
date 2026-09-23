@@ -1,0 +1,2 @@
+SOFTINCLUDE /home/install/IC618/share/cdssetup/cds.lib
+DEFINE LNA /home/vlsi/MAJOR_PROJECT_88A7C3/major/LNA
