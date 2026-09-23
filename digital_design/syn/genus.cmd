@@ -1,9 +1,0 @@
-# Cadence Genus(TM) Synthesis Solution, Version 21.14-s082_1, built Jun 23 2022 14:32:08
-
-# Date: Thu Sep 03 10:21:58 2026
-# Host: cvr-vlsi57.cvr.ac.in (x86_64 w/Linux 4.18.0-425.3.1.el8.x86_64) (10cores*16cpus*1physical cpu*13th Gen Intel(R) Core(TM) i5-13400 20480KB)
-# OS:   Red Hat Enterprise Linux release 8.7 (Ootpa)
-
-read_libs /home/install/FOUNDRY/digital/45nm/dig/lib/slow.lib
-read_libs /home/install/FOUNDRY/digital/90nm/dig/lib/slow.lib
-exit
